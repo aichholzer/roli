@@ -8,7 +8,7 @@ Random names as a service.
 
 ### API
 
-##### GET [//roli.whir.io](http://roli.whir.io)/name/{gender}
+#### GET [//roli.whir.io](http://roli.whir.io)/name/{gender}
 A personal name. Not gender specific.<br />
 `gender`: (string) `female`, `male`.
 
@@ -21,7 +21,7 @@ A personal name. Not gender specific.<br />
 ```
 
 
-##### GET [//roli.whir.io](http://roli.whir.io)/group/{minLength}/{maxLength}
+#### GET [//roli.whir.io](http://roli.whir.io)/group/{minLength}/{maxLength}
 A group name.<br />
 `minLength`: (integer) Defaults to 6.<br />
 `maxLength`: (integer) Defaults to 20.
@@ -33,7 +33,7 @@ A group name.<br />
 ```
 
 
-##### GET [//roli.whir.io](http://roli.whir.io)/username/{minLength}/{maxLength}
+#### GET [//roli.whir.io](http://roli.whir.io)/username/{minLength}/{maxLength}
 A username.<br />
 `minLength`: (integer) Defaults to 6.<br />
 `maxLength`: (integer) Defaults to 15.
