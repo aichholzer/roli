@@ -1,38 +1,36 @@
 <p align="center">
-	<a href="http://roli.whir.io"><img src="media/roli.png" alt="roli.whir.io" /></a>
+	<a href="https://github.com/aichholzer/Roli"><img src="media/roli.png" alt="roli" /></a>
 </p>
 
 ### Roli
-Random names as a service.
+Random data.
 
 
-### API
-
-##### GET [//roli.whir.io](http://roli.whir.io)/name/{gender}
-A personal name. Not gender specific.<br />
-`gender`: (string) `female`, `male`.
-
+### Install
 ```
-{
-  "firstName": "Mahatma",
-  "lastName": "Gandhi",
-  "age": 48
-}
+npm install roli
 ```
 
 
-##### GET [//roli.whir.io](http://roli.whir.io)/group/{minLength}/{maxLength}
-A group name.<br />
-`minLength`: (integer) Defaults to 6.<br />
-`maxLength`: (integer) Defaults to 18.
+### Use
+```
+let rolie = require('roli');
 
+roli();
+// 'Precious.Declaration'
 ```
-{
-  "groupName": "Precious.Declaration"
-}
+
+
+### Contribute
 ```
+fork https://github.com/aichholzer/Roli/
+work
+pull-request
+```
+
+More ideas for `adjectives.json` and `nouns.json` are always welcome.
 
 
 ### License
 
-[MIT](https://github.com/WhirIO/Roli/blob/master/LICENSE)
+[MIT](https://github.com/aichholzer/Roli/blob/master/LICENSE)
