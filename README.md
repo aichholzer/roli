@@ -5,7 +5,7 @@
 
 
 ### Roli
-Random data.
+Fantastic names for your projects, groups, users or anything else you want to give a name to.
 
 
 ### Install
@@ -22,7 +22,7 @@ roli();
 // 'Precious.Declaration'
 ```
 
-You can also define a custom separator:
+Use it with options:
 
 ```
 let roli = require('roli');
@@ -30,7 +30,17 @@ let roli = require('roli');
 roli({
   separator: '_'
 });
+// Custom separator
 // 'Precious_Declaration'
+```
+
+
+### More options
+```
+{
+  "separator": ".",  // Separator. Default: .
+  "words": 2,        // Number of words. Default: 2
+}
 ```
 
 
