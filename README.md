@@ -14,7 +14,7 @@ npm install roli
 
 ### Use
 ```
-let rolie = require('roli');
+let roli = require('roli');
 
 roli();
 // 'Precious.Declaration'
