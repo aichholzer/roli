@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/aichholzer/Roli.svg?branch=master)](https://travis-
-ci.org/aichholzer/Roli)
+[![Build Status](https://travis-ci.org/aichholzer/Roli.svg?branch=master)](https://travis-ci.org/aichholzer/Roli)
 <p align="center">
 	<a href="https://github.com/aichholzer/Roli"><img src="media/roli.png" alt="roli" /></a>
 </p>
