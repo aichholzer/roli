@@ -39,7 +39,7 @@ roli({
 fork https://github.com/aichholzer/Roli/
 ```
 
-More ideas for `adjectives.json` and `nouns.json` are always welcome.
+More ideas for **adjectives** and **nouns** (See `./lib/data.json`) are always welcome.
 
 
 ### License
