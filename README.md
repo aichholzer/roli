@@ -22,6 +22,17 @@ roli();
 // 'Precious.Declaration'
 ```
 
+You can also define a custom separator:
+
+```
+let roli = require('roli');
+
+roli({
+  separator: '_'
+});
+// 'Precious_Declaration'
+```
+
 
 ### Contribute
 ```
