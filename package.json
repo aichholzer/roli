@@ -1,47 +1,47 @@
 {
-  "name": "roli",
-  "version": "0.1.8",
-  "description": "Random stuff.",
-  "author": {
-    "name": "Stefan Aichholzer",
-    "email": "theaichholzer@gmail.com",
-    "url": "https://github.com/aichholzer"
-  },
-  "contributors": [],
-  "maintainers": [],
-  "keywords": [
-    "random",
-    "names",
-    "usernames",
-    "strings"
-  ],
-  "homepage": "https://github.com/aichholzer/roli",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:aichholzer/roli.git"
-  },
-  "license": "MIT",
-  "engines": {
-    "node": "6.2.x"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "^3.0.2",
-    "should": "^11.1.0"
-  },
-  "main": "./lib/index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
-  },
-  "bugs": {
-    "url": "https://github.com/aichholzer/roli/issues"
-  },
-  "_from": "roli@^0.1.7",
-  "_npmUser": {
-    "name": "aichholzer",
-    "email": "theaichholzer@gmail.com"
-  }
+    "name": "roli",
+    "version": "0.1.8",
+    "description": "Random stuff.",
+    "author": {
+        "name": "Stefan Aichholzer",
+        "email": "theaichholzer@gmail.com",
+        "url": "https://github.com/aichholzer"
+    },
+    "contributors": [],
+    "maintainers": [],
+    "keywords": [
+        "random",
+        "names",
+        "usernames",
+        "strings"
+    ],
+    "homepage": "https://github.com/aichholzer/roli",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:aichholzer/roli.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "6.2.x"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^3.0.2",
+        "should": "^11.1.0"
+    },
+    "main": "./lib/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
+    },
+    "bugs": {
+        "url": "https://github.com/aichholzer/roli/issues"
+    },
+    "_from": "roli@^0.1.7",
+    "_npmUser": {
+        "name": "aichholzer",
+        "email": "theaichholzer@gmail.com"
+    }
 }
