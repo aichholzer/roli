@@ -2,8 +2,7 @@
 [![Dependency status](https://gemnasium.com/badges/github.com/aichholzer/Roli.svg)](https://gemnasium.com/github.com/aichholzer/Roli)
 [![Downloads](https://img.shields.io/npm/dt/roli.svg)](https://www.npmjs.com/package/roli)
 
-# [![roli](media/roli.png)](https://github.com/aichholzer/roli)
-
+[![roli](media/roli.png)](https://github.com/aichholzer/roli)
 ### Roli
 Fantastic names for your projects, groups, users or anything else you want to give a name to.
 
