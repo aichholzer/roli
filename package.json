@@ -15,10 +15,10 @@
     "usernames",
     "strings"
   ],
-  "homepage": "https://github.com/aichholzer/Roli",
+  "homepage": "https://github.com/aichholzer/roli",
   "repository": {
     "type": "git",
-    "url": "git@github.com:aichholzer/Roli.git"
+    "url": "git@github.com:aichholzer/roli.git"
   },
   "license": "MIT",
   "engines": {
@@ -37,7 +37,7 @@
     "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
   },
   "bugs": {
-    "url": "https://github.com/aichholzer/Roli/issues"
+    "url": "https://github.com/aichholzer/roli/issues"
   },
   "_from": "roli@^0.1.5",
   "_npmUser": {
