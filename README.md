@@ -45,7 +45,7 @@ roli({
 
 ### Contribute
 ```
-fork https://github.com/aichholzer/Roli/
+fork https://github.com/aichholzer/roli/
 ```
 
 More ideas for **adjectives** and **nouns** (See `./lib/data.json`) are always welcome.
@@ -53,4 +53,4 @@ More ideas for **adjectives** and **nouns** (See `./lib/data.json`) are always w
 
 ### License
 
-[MIT](https://github.com/aichholzer/Roli/blob/master/LICENSE)
+[MIT](https://github.com/aichholzer/roli/blob/master/LICENSE)
