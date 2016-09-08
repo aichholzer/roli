@@ -1,6 +1,6 @@
 {
   "name": "roli",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Random stuff.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/aichholzer/Roli/issues"
   },
-  "_from": "roli@^0.1.4",
+  "_from": "roli@^0.1.5",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"
