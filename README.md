@@ -3,7 +3,7 @@
 [![Downloads](https://img.shields.io/npm/dt/roli.svg)](https://www.npmjs.com/package/roli)
 [![Always useful](https://img.shields.io/badge/always-useful-ff6400.svg)](https://github.com/aichholzer/roli)
 
-### roli
+# roli
 Fantastic names for your projects, groups, users or anything else you want to give a name to.
 
 
