@@ -1,6 +1,6 @@
 {
     "name": "roli",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Random stuff.",
     "author": {
         "name": "Stefan Aichholzer",
@@ -26,10 +26,13 @@
     },
     "dependencies": {},
     "devDependencies": {
+        "jscs": "^3.0.7",
+        "minimist": "^1.2.0",
         "mocha": "^3.0.2",
         "should": "^11.1.0"
     },
     "main": "./lib/index.js",
+    "bin": "./lib/cli.js",
     "directories": {
         "test": "test"
     },
@@ -39,7 +42,7 @@
     "bugs": {
         "url": "https://github.com/aichholzer/roli/issues"
     },
-    "_from": "roli@^0.1.7",
+    "_from": "roli@^0.1.8",
     "_npmUser": {
         "name": "aichholzer",
         "email": "theaichholzer@gmail.com"

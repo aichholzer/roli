@@ -1,8 +1,12 @@
 'use strict';
 
 
-let roli = require('../lib'),
+let exec = require('child_process').exec,
+    roli = require('../lib'),
     should = require('should');
+
+
+// As a module
 
 it('Basic string', done => {
 
@@ -17,6 +21,7 @@ it('3 words', done => {
         }),
         words = string.split('.');
 
+    should(string).be.a.String();
     should(string.indexOf('.')).be.above(3);
     should(words.length).equal(3);
     done();
@@ -24,12 +29,55 @@ it('3 words', done => {
 
 it('Default separator', done => {
 
-    should(roli().indexOf('.')).be.above(3);
+    let string = roli();
+    should(string).be.a.String();
+    should(string.indexOf('.')).be.above(3);
     done();
 });
 
 it('Custom separator', done => {
 
-    should(roli({ separator: '-' }).indexOf('-')).be.above(3);
+    let string = roli({ separator: '-' });
+    should(string).be.a.String();
+    should(string.indexOf('-')).be.above(3);
     done();
+});
+
+
+// As a CLI tool
+
+it('Basic string', done => {
+
+    exec('./lib/cli.js', (error, stdout) => {
+        should(stdout).be.a.String();
+        done();
+    });
+});
+
+it('3 words', done => {
+
+    exec('./lib/cli.js --words=3', (error, stdout) => {
+        should(stdout).be.a.String();
+        should(stdout.indexOf('.')).be.above(3);
+        should(stdout.split('.').length).equal(3);
+        done();
+    });
+});
+
+it('Default separator', done => {
+
+    exec('./lib/cli.js --words=3', (error, stdout) => {
+        should(stdout).be.a.String();
+        should(stdout.indexOf('.')).be.above(3);
+        done();
+    });
+});
+
+it('Custom separator', done => {
+
+    exec('./lib/cli.js --separator=-', (error, stdout) => {
+        should(stdout).be.a.String();
+        should(stdout.indexOf('-')).be.above(3);
+        done();
+    });
 });

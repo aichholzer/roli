@@ -9,30 +9,32 @@ Fantastic names for your projects, groups, users or anything else you want to gi
 
 ### Install
 ```
-npm install --save roli
+npm install -s roli
+```
+If you need to use it globally as a CLI tool:
+```
+npm install -g roli
 ```
 
 
 ### Use
 ```
-let roli = require('roli');
+const roli = require('roli');
+const result = roli();
 
-roli();
 // 'Precious.Declaration'
 ```
 
 Use it with options:
-
 ```
-let roli = require('roli');
-
-roli({
+const roli = require('roli');
+// Custom separator
+const result = roli({
   separator: '_'
 });
-// Custom separator
+
 // 'Precious_Declaration'
 ```
-
 
 ### More options
 ```
@@ -40,6 +42,13 @@ roli({
   "separator": ".",  // Separator. Default: .
   "words": 2,        // Number of words. Default: 2
 }
+```
+
+### CLI use:
+```
+$> roli --separator=_ --words=3
+
+// 'Precious_Declaration_Subject'
 ```
 
 
