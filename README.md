@@ -9,7 +9,7 @@ Fantastic names for your projects, groups, users or anything else you want to gi
 
 ### Install
 ```
-npm install -s roli
+npm install --save roli
 ```
 If you need to use it globally as a CLI tool:
 ```
