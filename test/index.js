@@ -1,9 +1,9 @@
 'use strict';
 
 
-let exec = require('child_process').exec,
-    roli = require('../lib'),
-    should = require('should');
+const exec = require('child_process').exec;
+const roli = require('../lib');
+const should = require('should');
 
 
 // As a module
@@ -43,6 +43,20 @@ it('Custom separator', done => {
     done();
 });
 
+it('Lower case', done => {
+
+    let string = roli({ case: 'lower' });
+    should(string).be.a.String();
+    done();
+});
+
+it('Upper case', done => {
+
+    let string = roli({ case: 'upper' });
+    should(string).be.a.String();
+    done();
+});
+
 
 // As a CLI tool
 
@@ -78,6 +92,22 @@ it('Custom separator', done => {
     exec('./lib/cli.js --separator=-', (error, stdout) => {
         should(stdout).be.a.String();
         should(stdout.indexOf('-')).be.above(3);
+        done();
+    });
+});
+
+it('Lower case', done => {
+
+    exec('./lib/cli.js --case=lower', (error, stdout) => {
+        should(stdout).be.a.String();
+        done();
+    });
+});
+
+it('Upper case', done => {
+
+    exec('./lib/cli.js --case=upper', (error, stdout) => {
+        should(stdout).be.a.String();
         done();
     });
 });

@@ -39,6 +39,7 @@ const result = roli({
 ### More options
 ```
 {
+  "case": "upper" || "lower",  // Upper -or lower case the result.
   "separator": ".",  // Separator. Default: .
   "words": 2,        // Number of words. Default: 2
 }
