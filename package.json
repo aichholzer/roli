@@ -1,50 +1,56 @@
 {
-    "name": "roli",
-    "version": "0.2.1",
-    "description": "Random stuff.",
-    "author": {
-        "name": "Stefan Aichholzer",
-        "email": "play@analogbird.com",
-        "url": "https://github.com/aichholzer"
-    },
-    "contributors": [],
-    "maintainers": [],
-    "keywords": [
-        "random",
-        "names",
-        "usernames",
-        "strings"
-    ],
-    "homepage": "https://github.com/aichholzer/roli",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:aichholzer/roli.git"
-    },
-    "license": "MIT",
-    "engines": {
-        "node": "6.2.x"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "jscs": "^3.0.7",
-        "minimist": "^1.2.0",
-        "mocha": "^6.1.4",
-        "should": "^13.2.1"
-    },
-    "main": "./lib/index.js",
-    "bin": "./lib/cli.js",
-    "directories": {
-        "test": "test"
-    },
-    "scripts": {
-        "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
-    },
-    "bugs": {
-        "url": "https://github.com/aichholzer/roli/issues"
-    },
-    "_from": "roli@^0.2.0",
-    "_npmUser": {
-        "name": "aichholzer",
-        "email": "theaichholzer@gmail.com"
-    }
+  "name": "roli",
+  "version": "0.3.0",
+  "description": "Random name generator.",
+  "author": {
+    "name": "Stefan Aichholzer",
+    "email": "theaichholzer@gmail.com",
+    "url": "https://github.com/aichholzer"
+  },
+  "contributors": [],
+  "maintainers": [],
+  "keywords": [
+    "random",
+    "names",
+    "usernames",
+    "strings"
+  ],
+  "homepage": "https://github.com/aichholzer/roli",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aichholzer/roli.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "6.2.x"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "mocha": "^6.1.4",
+    "should": "^13.2.1"
+  },
+  "main": "./lib/index.js",
+  "bin": "./lib/cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
+  },
+  "bugs": {
+    "url": "https://github.com/aichholzer/roli/issues"
+  },
+  "_from": "roli@^0.2.0",
+  "_npmUser": {
+    "name": "aichholzer",
+    "email": "theaichholzer@gmail.com"
+  }
 }
